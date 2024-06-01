@@ -1,0 +1,263 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+nav{
+    font-family: 'ubuntu',sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+    height: 69px;
+    background-color: black;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+ width: 44px;
+ padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+.brand ul{
+    align-items: center;
+    padding: 0 12px;
+}
+.container{
+    min-height: 75vh; 
+    background-color: black;
+    color: white;
+    font-family: 'varela Round',sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg1.jpg');
+    background-size: cover;
+  
+
+}
+.buttom{
+    position: sticky;
+    height: 90px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.songinfo{
+   position: absolute;
+    left: 9.5vw;
+    font-family: 'varela Round',sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+.icons{
+    color: white;
+    margin-top: 14px;
+}
+#myprogessbar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 73px;
+}
+.songitem{
+    height: 50px;
+    background-color: white;
+    color: black;
+    display: flex;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    
+
+}
+.songitem img{
+    width: 43px;
+    margin: 0 10px;
+    border-radius: 50px;
+}
+.songplaylist{
+    display: flex;
+    justify-content: center;
+}
+.timestamp{
+    margin: auto;
+    /* margin-bottom: 20px; */
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+body {
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    font-family: 'ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+    height: 69px;
+    background-color: black;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.brand ul {
+    align-items: center;
+    padding: 0 12px;
+}
+
+.container {
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg1.jpg');
+    background-size: cover;
+}
+
+.buttom {
+    position: sticky;
+    height: 90px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.songinfo {
+    position: absolute;
+    left: 9.5vw;
+    font-family: 'varela Round', sans-serif;
+}
+
+.songinfo img {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.icons {
+    color: white;
+    margin-top: 14px;
+}
+
+#myprogessbar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songitemcontainer {
+    margin-top: 73px;
+}
+
+.songitem {
+    height: 50px;
+    background-color: white;
+    color: black;
+    display: flex;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songitem img {
+    width: 43px;
+    margin: 0 10px;
+    border-radius: 50px;
+}
+
+.songplaylist {
+    display: flex;
+    justify-content: center;
+}
+
+.timestamp {
+    margin: auto;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+    /* Adjust styles for screens up to 1200px wide */
+    .container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for screens up to 768px wide */
+    .container {
+        width: 90%;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .brand {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* Add more media queries as needed for different screen sizes */
